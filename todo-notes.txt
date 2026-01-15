@@ -1,0 +1,24 @@
+
+Analytics Engineering repo – scope
+
+Source: CSV / public dataset
+
+dbt:
+
+1 staging model
+
+1 intermediate model
+
+1 fact table
+
+Metrics:
+
+Revenue
+
+Conversion / efficiency
+
+Output:
+
+SQL + dbt models
+
+README explaining decisions
