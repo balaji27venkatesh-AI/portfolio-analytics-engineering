@@ -142,5 +142,7 @@ This repo will be most relevant for:
 ---
 
 ## Author
-**Balaji Venkatesh**   🇮🇳
-balaji27venkatesh@gmail.com
+**Balaji Venkatesh** 🇮🇳  
+Product & Analytics Engineer  
+📧 balaji27venkatesh@gmail.com  
+🔗 https://github.com/balaji27venkatesh-AI
