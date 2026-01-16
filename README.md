@@ -7,8 +7,6 @@ It reflects how analytics engineering is practiced in **modern data stacks** usi
 The focus is **reliability, scalability, and decision impact**, not just dashboards.
 The patterns used here mirror analytics engineering practices applied in real enterprise environments.
 
----
-
 ## Business Problem
 Business teams rely on inconsistent metrics across dashboards, leading to:
 - Conflicting numbers for the same KPI  
@@ -16,8 +14,6 @@ Business teams rely on inconsistent metrics across dashboards, leading to:
 - Low trust in analytics for decision-making  
 
 This project simulates a real-world scenario where **centralized, well-modeled analytics** are required to support product and business decisions at scale.
-
----
 
 ## Why This Matters
 Poor analytics foundations directly impact:
@@ -30,8 +26,6 @@ This project shows how **analytics engineering solves these problems** by introd
 - Scalable transformation layers  
 - BI models optimized for consumption, not just storage  
 
----
-
 ## Dataset
 **Type:** Simulated product / business data  
 **Structure:**
@@ -43,8 +37,6 @@ This project shows how **analytics engineering solves these problems** by introd
 - Raw layers vs processed layers
 - Fact–dimension modeling
 - Metrics built on top of clean semantic models
-
----
 
 ## My Approach
 
@@ -73,15 +65,11 @@ This project shows how **analytics engineering solves these problems** by introd
   - Consistent slicing by dimensions
 - Power BI–style consumption simulated via SQL outputs and screenshots
 
----
-
 ## Key Insights / Outcomes
 - Improved metric consistency by defining KPIs once at the model layer
 - Reduced downstream BI complexity by shifting logic upstream
 - Enabled faster dashboard performance through optimized transformations
 - Demonstrated production-ready analytics patterns used in real organizations
-
----
 
 ## Tech Stack
 - **SQL** – Core transformation and metric logic  
@@ -90,9 +78,8 @@ This project shows how **analytics engineering solves these problems** by introd
 - **Power BI** – BI consumption mindset (semantic modeling, performance)  
 - **Python** – Supporting analysis (if required)
 
----
-
 ## Repository Structure
+```
 .
 ├── data/
 │ ├── raw/
@@ -110,8 +97,7 @@ This project shows how **analytics engineering solves these problems** by introd
 │ ├── architecture.md
 │ └── metrics_definition.md
 └── README.md
-
----
+```
 
 ## How to Run
 1. Review raw data in `/data/raw`
@@ -121,8 +107,6 @@ This project shows how **analytics engineering solves these problems** by introd
 
 Note: *(This repo focuses on analytics design and modeling patterns rather than deployment automation.)*
 
----
-
 ## What I Learned from this portfolio
 - How analytics engineering can bridge raw data and business decisions
 - Why metric ownership matters more than just dashboard ownership
@@ -131,18 +115,15 @@ Note: *(This repo focuses on analytics design and modeling patterns rather than 
 - The importance of aligning data models with real stakeholder questions
 - Transition from traditional Business Intelligence to full-stack end-to-end Analytics Engineering
 
----
-
 ## Intended Audience
 This repo will be most relevant for:
 - Analytics engineers designing scalable dbt models and metrics layers.
 - BI teams transitioning from dashboard-centric reporting to decision-grade analytics.
 - Organizations expecting analytics to directly support business decisions, not just limit to reporting.
 
----
-
 ## Author
-**Balaji Venkatesh** 🇮🇳  
-Product & Analytics Engineer  
+**Balaji Venkatesh** (India)
+Senior Analytics / Business Intelligence Engineer
+Applied AI Practioner
 📧 balaji27venkatesh@gmail.com  
 🔗 https://github.com/balaji27venkatesh-AI
