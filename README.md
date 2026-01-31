@@ -16,15 +16,15 @@ Business teams rely on inconsistent metrics across dashboards, leading to:
 This project simulates a real-world scenario where **centralized, well-modeled analytics** are required to support product and business decisions at scale.
 
 ## Why This Matters
-Poor analytics foundations directly impact:
-- ❌ Decision latency due to slow or unreliable data  
-- ❌ Revenue leakage from misinterpreted metrics  
-- ❌ Engineering inefficiency caused by duplicated logic  
+Inconsistent and poorly governed analytics foundations lead to:
+- Conflicting KPI values across reports, slowing decision-making
+- Increased BI maintenance due to duplicated logic
+- Reduced trust in dashboards used for business and product decisions
 
-This project shows how **analytics engineering solves these problems** by introducing:
-- Single source of truth for metrics  
-- Scalable transformation layers  
-- BI models optimized for consumption, not just storage  
+This project demonstrates how **analytics engineering addresses** these issues by 
+- centralizing metric logic, 
+- enforcing semantic consistency, and 
+- enabling scalable, decision-ready BI.
 
 ## Dataset
 **Type:** Simulated product / business data  
@@ -106,7 +106,6 @@ This project shows how **analytics engineering solves these problems** by introd
 4. Review dashboard outputs under `/dashboards`
 
 Note: *(This repo focuses on analytics design and modeling patterns rather than deployment automation.)*
-
 ## What I Learned from this portfolio
 - How analytics engineering can bridge raw data and business decisions
 - Why metric ownership matters more than just dashboard ownership
@@ -114,16 +113,8 @@ Note: *(This repo focuses on analytics design and modeling patterns rather than 
 - How to design analytics systems that scale with business growth
 - The importance of aligning data models with real stakeholder questions
 - Transition from traditional Business Intelligence to full-stack end-to-end Analytics Engineering
-
-## Intended Audience
-This repo will be most relevant for:
-- Analytics engineers designing scalable dbt models and metrics layers.
-- BI teams transitioning from dashboard-centric reporting to decision-grade analytics.
-- Organizations expecting analytics to directly support business decisions, not just limit to reporting.
-
 ## Author
 **Balaji Venkatesh** (Proud Indian)
 - Senior Analytics / Business Intelligence Engineer
-- Applied AI Practioner in making
 - 📧 balaji27venkatesh@gmail.com  
 - 🔗 https://github.com/balaji27venkatesh-AI
